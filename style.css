@@ -232,3 +232,60 @@ footer {
 	width: 35%;
 	height: auto;
 }
+@media (max-width: 700px) {
+.container {
+	padding: 15px;
+}
+
+.hero {
+	height: 600px;
+	min-height: 0;
+}
+
+.logo-text {
+	font-size: 3.5rem;
+}
+
+.social-icons {
+	margin-left: 0;
+	justify-content: center;
+}
+
+.button {
+	font-size: 16px;
+	padding: 12px 20px;
+}
+
+.aboutthing {
+	grid-template-columns: 1fr;
+	gap: 20px;
+	padding: 15px;
+}
+
+.fagbout-gif {
+	width: 100%;
+}
+
+.projects-grid {
+	grid-template-columns: 1fr;
+}
+
+.quotewall {
+	grid-template-columns: 1fr;
+}
+
+.project-image {
+	height: 200px;
+}
+
+footer {
+	padding: 30px 15px;
+	flex-direction: column;
+	text-align: center;
+	gap: 10px;
+}
+
+.pagesbtw img {
+	width: 35%;
+	height: auto;
+}
