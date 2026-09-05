@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TF2 ITEM EMU EDITOR</title>
+    <link rel="stylesheet" href="style.css">
+	<link rel="icon" href="images/lardiconfav.webp">
+</head>
+<body>
+    <header class="hero">
+        <div class="hero-content">
+		<img src="images/lardicon2.webp" draggable="false" height="500px">
+    </header>
+
+    <main class="container">
+        <section class="about-section">
+            <h2 class="titles">TF2 Item editor?</h2>
+                <div class="about-text">
+				<p>This item editor was made for Arwent's GameCoordinator emulator and its...not the best honestly, it's hacky, barely parses items_game.txt and doesn't even add required stuff like attributes! it just appends the defindex and some brackets lol.<br><br>
+				It still works for the current version of the emu, and I did include compiled binaries for said emu on the Github, but i'm looking to deprecate it by adding an imgui item giver to the emulator itself, removing the need for my shitty winforms app.</p>
+                </div>
+				<div class="aboutthing">
+                <div class="aboutthing">
+                    <img src="images/tf2gui.webp" draggable="false" alt="Girl in a jacket">
+                </div>
+				<div class="about-text">
+				<p>I'm not exactly proud on how this functions, when you open your inventory.txt, it removes the closing bracket, so when you add items it's just putting in a set of brackets with the defindex, letting the game fill in the rest.<br><br>
+				Then when you save, it adds that final closed bracket, meaning if you open your inventory and close the gui normally, it won't close the bracket and the inventory won't load lmaoo<br><br>
+				Issues aside, it is pretty functional, and i've been adding my own stuff to the emulator itself to make decals functional! As well as the halloween spells because they're really cool and its something I never got to experience.</p>
+                </div>
+				<h2 class="titles">Decals and Spells!</h2>
+                <div class="youtubbyfuckyou">
+				<iframe
+				width="560"
+				height="315"
+				src="https://www.youtube.com/embed/F1qYpP9A7xI"
+				title="youtubby custard!!"
+				frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"allowfullscreen>
+				</iframe>
+				<h2 class="titles">UPDATE!!!! WEE WOO WEE WOO</h2>
+				<div class="about-text">
+				<p>Or kind of not, since this happened during my webshit development, but I made that imgui and deprecated my own shitty winforums launcher!<br><br>
+				I also started adding stuff for killstreakifiers because I liked the sheen, I said I would stop after that, but i'm feeling motivated to add warkit functionality and maybe even unusuals! (pasting the shit out of the existing parsers lol)<br><br>
+				Here's a video showing all that off, the GUI has a button to give all australiums since theres only a few lol, just make sure to save your inventory when you're done, though its supposed to write to file when TF2 closes, sometimes that shit doesn't happen.<br><br>
+				I want to emphasise this would not have been possible without the existing infastructure made by Arwent, which is what allowed me to get by with adding different functionality rather than making the entire inventory system.</p>
+                </div>
+				<div class="youtubbyfuckyou">
+				<iframe
+				width="560"
+				height="315"
+				src="https://www.youtube.com/embed/pE_WLTqb1ow"
+				title="youtubby custard!!"
+				frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"allowfullscreen>
+				</iframe>
+				</div>
+				<span class="bigglebongle">Do you want to fuck about with every item in TF2? Here! Go have fun.</span>
+				<span class="bigglebongle"><a href="https://github.com/nocss42/TF2-GC-Emulator-GUI/releases/tag/betterelease" target="_blank">Arwent's GameCoordinator Emulator (with my additions!!)</span></a>
+        </section>
+        </section>
+    </main>
+    <footer>
+	<img src="images/footer.webp" draggable="false" draggable="false" class="expand-dong">
+    </footer>
+
+</body>
+</html>
