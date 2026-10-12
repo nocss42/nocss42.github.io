@@ -1,7 +1,7 @@
 body {
     background-color: #150f0f;
     color: #dcc8c8;
-    font-family: 'Comic Sans MS', sans-serif; /* what a fucking bitch, what kind of phone doesn't have comic sans? */
+    font-family: "Comic Sans MS", "Comic Neue"; /* what a fucking bitch, what kind of phone doesn't have comic sans? */
     margin: 0;
     padding: 0;
 }
@@ -93,7 +93,7 @@ body {
     font-size: 5rem;
     color: #72C43C;
     margin: 0;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: "Comic Sans MS", "Comic Neue";
 }
 
 .skills-grid {
